@@ -1,5 +1,7 @@
+package Day03;
 
-public class Day04 {
+public class program02 {
+
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -19,4 +21,3 @@ public class Day04 {
 	}
 
 }
-
