@@ -1,6 +1,7 @@
 package Day13;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class programe01 {
 
@@ -26,5 +27,16 @@ public class programe01 {
 		System.out.println(x);
 		System.out.println(x.isEmpty());
 		
+		
+		x.set(3, 40);
+		System.out.println(x);		
+		Integer[] y= {50,60,70,80,90};
+		x.addAll(Arrays.asList(y));
+		System.out.println(x);
+		Integer[] z= {10,20,30};
+		x.removeAll(Arrays.asList(z));
+		System.out.println(x);	
+		
+	
 	}
 }

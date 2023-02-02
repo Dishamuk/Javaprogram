@@ -1,17 +1,17 @@
-package Day13;                //collections
+package Day13;
 
 
-	import java.util.HashMap;
+	import java.util.*;
 
-	public class programe03 {
+	public class programe04 {
 
 		public static void main(String[] args) {
-			HashMap<Integer,String> x= new HashMap<>();
+			Hashtable<Integer,String> x= new Hashtable<>();
 			x.put(101, "aa");
 			x.put(102, "bb");
 			x.put(101, "aaa");
 			x.put(103, "bb");
-			x.put(null, null);      ///null means we can add empty, null can be in hashmap not in hashtable
+			//x.put(null, null);
 			System.out.println(x);
 			x.remove(101);
 			System.out.println(x);
@@ -27,7 +27,8 @@ package Day13;                //collections
 			x.replace(102, "aaa");
 			x.put(104, "aaa");//replace and new key
 			System.out.println(x);
+			
+		}
+
 
 }
-	}
-	

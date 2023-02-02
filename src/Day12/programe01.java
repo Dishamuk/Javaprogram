@@ -13,9 +13,11 @@ public class programe01 {
 		x[4]=66;
 	
 		System.out.println(x[4]);
+		System.out.println(z[2]);
 		
 	}
 
-
+	
+	
 
 }
